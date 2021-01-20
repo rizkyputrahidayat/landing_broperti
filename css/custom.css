@@ -1,280 +1,276 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 /* Navbar */
-.navbar-nav .nav-link{
-    font-size: 18px;
-    font-weight: 500;
-    padding-top: 20px;
-    margin-left: 10px;
+.navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 20px;
+  margin-left: 10px;
 }
 
-.navbar-nav .nav-item .nav-link{
-    color: #9094A2;
+.navbar-nav .nav-item .nav-link {
+  color: #9094a2;
 }
-.btn-account{
-    background-color: #83D987;
-    border-radius: 4px;
-    width: 170px;
-    height: 50px;
-    padding-top: 11px;
-    text-align: center;
+.btn-account {
+  background-color: #83d987;
+  border-radius: 4px;
+  width: 170px;
+  height: 50px;
+  padding-top: 11px;
+  text-align: center;
 }
 
 /* Hero Header */
-.hero .col-6 h1{
-    font-size: 48px;
-    font-weight: 600;
-    color: #ffffff;
+.hero .col-6 h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #ffffff;
 }
-.hero .col-6 p{
-    font-size: 16px;
-    color: #9094A2;
-    font-weight: normal;
+.hero .col-6 p {
+  font-size: 16px;
+  color: #9094a2;
+  font-weight: normal;
 }
-
-.hero{
-    background-color: #0F1837;
-    min-height: 720px;
-    /* margin-bottom: 100px; */
-    margin-top: -99px;
+.hero {
+  background-color: #0f1837;
+  min-height: 720px;
+  /* margin-bottom: 100px; */
+  margin-top: -99px;
 }
-.hero-left{
-    margin-top: 201px;
+.hero-left {
+  margin-top: 201px;
 }
-form{
-    width: 713px;
-    height: 112px;
-    background: #FFFFFF;
-    border-radius: 6px;
-    position: relative;
+form {
+  width: 713px;
+  height: 112px;
+  background: #ffffff;
+  border-radius: 6px;
+  position: relative;
 }
-form label{
-    display: block;
-    padding: 1em;
+form label {
+  display: block;
+  padding: 1em;
 }
-form .form-group{
-    float: left;
-    margin-right: 30px;
-    padding-left: 25px;
-    padding-top: 5px;
+form .form-group {
+  float: left;
+  margin-right: 30px;
+  padding-left: 25px;
+  padding-top: 5px;
 }
-form .form-group label{
-    margin-bottom: 14px;
-    width: 60px;
-    height: 21px;
-    font-size: 14px;
+form .form-group label {
+  margin-bottom: 14px;
+  width: 60px;
+  height: 21px;
+  font-size: 14px;
 }
-form .form-group input{
-    width: 200px;
-    height: 45px;
+form .form-group input {
+  width: 200px;
+  height: 45px;
 }
 form button {
-    margin-top: 21px;
+  margin-top: 21px;
 }
-form .btn-explore{
-    background: #83D987;
-    border-radius: 4px;
-    border-radius: 4px;
-    width: 170px;
-    height: 70px;
-    /* margin-right: 8px; */
+form .btn-explore {
+  background: #83d987;
+  border-radius: 4px;
+  border-radius: 4px;
+  width: 170px;
+  height: 70px;
+  /* margin-right: 8px; */
 }
-.hero-right img{
-    margin-top: 180px;
-    width: 420px;
-    margin-left: 120px;
+.hero-right img {
+  margin-top: 180px;
+  width: 420px;
+  margin-left: 120px;
 }
-.suit{
-    min-height: 920px;
-    background-color: #E7E5F9;
-    margin-bottom: 100px;
+.suit {
+  min-height: 920px;
+  background-color: #e7e5f9;
+  margin-bottom: 100px;
 }
-.suit-left{
-    padding: 110px 150px 0px 100px;
+.suit-left {
+  padding: 110px 150px 0px 100px;
 }
-.suit-right{
-    padding: 160px 150px 0px 100px;
+.suit-right {
+  padding: 160px 150px 0px 100px;
 }
-.suit-right h1{
-    font-size: 32px;
-    color: #0F1837;
-    font-weight: 500;
-    padding-bottom: 35px;
+.suit-right h1 {
+  font-size: 32px;
+  color: #0f1837;
+  font-weight: 500;
+  padding-bottom: 35px;
 }
-.suit-right img{
-    width: 50px;
-    position: absolute;
+.suit-right img {
+  width: 50px;
+  position: absolute;
 }
-.suit-right p{
-    font-weight: 400;
-    font-size: 16px;
-    color: #0F1837;
-    padding-left: 70px;
+.suit-right p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #0f1837;
+  padding-left: 70px;
 }
-.suit .partners{
-    padding-top: 100px;
-    text-align: center;
+.suit .partners {
+  padding-top: 100px;
+  text-align: center;
 }
-.suit .partners h2{
-    font-size: 32px;
-    font-weight: 500;
-    color: #0F1837;
+.suit .partners h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #0f1837;
 }
-.suit .partners h3{
-    font-size: 20px;
-    font-weight: 300;
-    color: #8A8C97;
-}
-
-.probably{
-    min-height: 550px;
-    margin-bottom: 100px;
-}
-.probably h1{
-    font-size: 32px;
-    color: #0F1837;
-    font-weight: 500;
-    text-align: left;
-}
-.probably p{
-    color: #9094A2;
-    font-size: 16px;
-    text-align: right;
-}
-.probably .content-probably img{
-    padding-top: 35px;
-    width: 260px;
+.suit .partners h3 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #8a8c97;
 }
 
-.sign-up form{
-    width: 753px;
-    height: 122px;
-    background: #0F1837;
-    border-radius: 6px;
+.probably {
+  min-height: 550px;
+  margin-bottom: 100px;
 }
-.sign-up form label{
-    display: inline;
-    padding: 10px;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: normal;
+.probably h1 {
+  font-size: 32px;
+  color: #0f1837;
+  font-weight: 500;
+  text-align: left;
 }
-.sign-up form .form-group{
-    margin-right: 30px;
-    padding-left: 25px;
-    padding-top: 17px;
+.probably p {
+  color: #9094a2;
+  font-size: 16px;
+  text-align: right;
 }
-.sign-up form .form-group label{
-    margin-left: -10px;
-    margin-bottom: 14px;
-    width: 60px;
-    height: 21px;
-    font-size: 14px;
+.probably .content-probably img {
+  padding-top: 35px;
+  width: 260px;
 }
-.sign-up form .form-group input{
-    margin-left: -10px;
-    width: 230px;
-    height: 45px;
+
+.sign-up form {
+  width: 753px;
+  height: 122px;
+  background: #0f1837;
+  border-radius: 6px;
 }
-.sign-up form .form-group input placeholder{
-    font-size: 16px;
-    color: #020B2A;
+.sign-up form label {
+  display: inline;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+}
+.sign-up form .form-group {
+  margin-right: 30px;
+  padding-left: 25px;
+  padding-top: 17px;
+}
+.sign-up form .form-group label {
+  margin-left: -10px;
+  margin-bottom: 14px;
+  width: 60px;
+  height: 21px;
+  font-size: 14px;
+}
+.sign-up form .form-group input {
+  margin-left: -10px;
+  width: 230px;
+  height: 45px;
+}
+.sign-up form .form-group input placeholder {
+  font-size: 16px;
+  color: #020b2a;
 }
 .sign-up form button {
-    margin-top: 21px;
+  margin-top: 21px;
 }
-.sign-up form .btn-sign{
-    color: #132039;
-    font-size: 18px;
-    background: #83D987;
-    border-radius: 6px;
-    width: 170px;
-    height: 70px;
+.sign-up form .btn-sign {
+  color: #132039;
+  font-size: 18px;
+  background: #83d987;
+  border-radius: 6px;
+  width: 170px;
+  height: 70px;
 }
-@media only screen and (max-width: 726px) {
-    .navbar-nav .nav-link{
-        padding-top: 0 !important;
-        margin-left: 2px;
-        font-size: 16px;
-    }
-    .hero .col h1{
-        font-size: 38px;
-    }
-    .hero .col p{
-        font-size: 14px;
-    }
-    .hero{
-        min-height: 850px;
-        margin-top: 0px;
-    }
-    .btn-account{
-        background-color: #83D987;
-        border-radius: 4px;
-        width: 100px;
-        height: 35px;
-        padding-top: 7px;
-        text-align: center;
-        font-size: 12px;
-    }
-    .suit img{
-        width: 321px;
-    }
-    .suit-right h1{
-        font-size: 23px;
-        color: #0F1837;
-        font-weight: 500;
-        padding-bottom: 35px;
-    }
-    .suit-right img{
-        width: 45px;
-        position: absolute;
-    }
-    .suit .partners{
-        padding-top: 60px;
-        text-align: center;
-    }
-    .suit .partners h2{
-        font-size: 24px;
-        font-weight: 500;
-        color: #0F1837;
-    }
-    .suit .partners h3{
-        font-size: 14px;
-        font-weight: 300;
-        color: #8A8C97;
-    }
-    .probably h1{
-        font-size: 25px;
-        color: #0F1837;
-        font-weight: 500;
-        text-align: left;
-    }
-    .probably p{
-        color: #9094A2;
-        font-size: 12px;
-        text-align: right;
-    }
-    .probably .content-probably img{
-        padding-top: 35px;
-        width: 260px;
-    }
-}
-.footer{
-    text-align: center;
-    min-height: 170px;
-    background: #F5F6F8;
-    margin-top: -60px;
-}
-.footer p{
-    color: #8A8C97;
+@media only screen and (max-width: 768px) {
+  .navbar-nav .nav-link {
+    padding-top: 0 !important;
+    margin-left: 2px;
     font-size: 16px;
+  }
+  .hero .col-6 h1 {
+    font-size: 35px;
+    margin-top: -140px !important;
+  }
+  .hero .col p {
+    font-size: 14px;
+  }
+  .hero {
+    min-height: 540px;
+    margin-top: 0px;
+  }
+  .hero-right img {
+    width: 290px;
+    margin-left: -5px;
+  }
+  .btn-account {
+    background-color: #83d987;
+    border-radius: 4px;
+    width: 100px;
+    height: 35px;
+    padding-top: 7px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .suit {
+    padding-bottom: 80px;
+  }
+  .suit img {
+    width: 301px;
+    margin-top: -40px;
+  }
+  .suit-right h1 {
+    font-size: 23px;
+    color: #0f1837;
+    font-weight: 500;
+    padding-bottom: 35px;
+  }
+  .suit-right {
+    margin-top: -100px;
+  }
+  .suit-right p {
+    margin-top: -29px;
+  }
+  .suit-right img {
+    width: 45px;
+    position: absolute;
+  }
+  .suit .partners {
+    padding-top: 60px;
+    text-align: center;
+  }
+  .suit .partners h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #0f1837;
+  }
+  .suit .partners h3 {
+    font-size: 14px;
     font-weight: 300;
-    font-style: normal;
-    padding-top: 110px;
+    color: #8a8c97;
+  }
+  .probably h1 {
+    font-size: 25px;
+    color: #0f1837;
+    font-weight: 500;
+    text-align: left;
+  }
+  .probably p {
+    color: #9094a2;
+    font-size: 12px;
+    text-align: right;
+  }
+  .probably .content-probably img {
+    padding-top: 35px;
+    width: 260px;
+  }
 }
-
-
-
-
-
